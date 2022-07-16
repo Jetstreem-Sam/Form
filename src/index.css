@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&display=swap');
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background: rgb(37, 37, 37);
+  margin: 0;
+  color: azure;
+}
+
+aside {
+  width: 40%;
+  float: right;
+  margin-top: 40px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.App main {
+  width: 50%;
+}
+
+.header {
+  background: rgba(0, 0, 0, 0.774);
+  padding: 15px;
+  font-size: 16px;
+  font-weight: bold;
+  color: azure;
+}
+
+.user {
+  background: rgba(3, 158, 219, 0.781);
+  color: azure;
+  padding: 5px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  margin-top: 40px;
+  margin-bottom: 30px;
+  margin-left: 50px;
+  max-width: 90%;
+}
+
+.delete-icon {
+  float: right;
+  cursor: pointer;
+  font-size: 28px;
+  margin-right: 10px;
+  transition: color transform 500ms;
+}
+
+.hammer {
+  float: right;
+  font-size: 28px;
+  margin-right: 10px;
+  cursor: pointer;
+  transition: color transform 500ms;
+}
+
+.hammer:hover {
+  transform: scale(1.08);
+  color: chartreuse;
+}
+
+.delete-icon:hover {
+  transform: scale(1.085);
+  color: red;
+}
+
+ form input:not([type="checkbox"]), 
+ form textarea, 
+ form button {
+  width: 90%;
+  padding: 15px 5%;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  margin-bottom: 10px;
+  border: 0;
+  background: black;
+  color: white;
+  outline: none;
+  font-size: 15px;
+}
+
+ form button {
+  width: 100%;
+  cursor: pointer;
+}
+
+ form button:hover {
+  background: rgba(3, 158, 219, 0.781);
+}
+
+.user form {
+  margin-top: 20px;
+}
+
+.user button:hover {
+  background: green;
+}
